@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{47762607-DA26-4E4D-B427-0190C97648C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D4EA3A5B-8BB8-4136-84E3-D15CDAA3E052}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{3A61DB12-C37A-4737-A01D-A96752F0D25A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{2C513C91-D2C9-4FD8-996A-4D77A16B4AEB}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{5237981E-5D9B-44C0-BCC7-BED99A6DE58A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "clients", "clients", "{30DF5B50-9C67-4909-9CD2-9B899FA8E515}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "clients", "clients", "{FC8D8AC8-5A5D-4A23-B1C9-5E358F1D134C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{19E692BA-4F66-40D3-A940-35E1EE380EBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Controllers.Web", "src\MadWorldNL.StrixAluco.Server.Controllers.Web\Server.Controllers.Web.csproj", "{5526168D-5B8A-4A0C-AE3F-5C760DB801D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5237981E-5D9B-44C0-BCC7-BED99A6DE58A} = {47762607-DA26-4E4D-B427-0190C97648C1}
+		{30DF5B50-9C67-4909-9CD2-9B899FA8E515} = {47762607-DA26-4E4D-B427-0190C97648C1}
+		{FC8D8AC8-5A5D-4A23-B1C9-5E358F1D134C} = {D4EA3A5B-8BB8-4136-84E3-D15CDAA3E052}
+		{19E692BA-4F66-40D3-A940-35E1EE380EBD} = {D4EA3A5B-8BB8-4136-84E3-D15CDAA3E052}
+		{5526168D-5B8A-4A0C-AE3F-5C760DB801D7} = {5237981E-5D9B-44C0-BCC7-BED99A6DE58A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5526168D-5B8A-4A0C-AE3F-5C760DB801D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5526168D-5B8A-4A0C-AE3F-5C760DB801D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5526168D-5B8A-4A0C-AE3F-5C760DB801D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5526168D-5B8A-4A0C-AE3F-5C760DB801D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
