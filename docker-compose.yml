@@ -1,0 +1,11 @@
+name: strix-aluco
+services:
+  api:
+    image: ghcr.io/madworldnl/strix-aluco:latest
+    container_name: api
+    build:
+      context: .
+      dockerfile: src/MadWorldNL.StrixAluco.Server.Controllers.Web/Dockerfile
+    ports:
+      - "8080:8080"
+      - "8081:8081"
