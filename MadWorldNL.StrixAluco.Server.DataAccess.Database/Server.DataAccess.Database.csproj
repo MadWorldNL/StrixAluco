@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyName>$(RootNamespace).Server.DataAccess.Database</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\src\MadWorldNL.StrixAluco.Server.Logic.Models\Server.Logic.Models.csproj" />
+    </ItemGroup>
+
+</Project>

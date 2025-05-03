@@ -23,6 +23,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{19E692
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Controllers.Web", "src\MadWorldNL.StrixAluco.Server.Controllers.Web\Server.Controllers.Web.csproj", "{5526168D-5B8A-4A0C-AE3F-5C760DB801D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Logic.Functions", "src\MadWorldNL.StrixAluco.Server.Logic.Functions\Server.Logic.Functions.csproj", "{D14EC7CB-3E0A-43CF-8497-612FC6E9B33C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Logic.Models", "src\MadWorldNL.StrixAluco.Server.Logic.Models\Server.Logic.Models.csproj", "{BED01CA4-BC00-4D8B-9DEE-6B5AC02C3BF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.DataAccess.Database", "MadWorldNL.StrixAluco.Server.DataAccess.Database\Server.DataAccess.Database.csproj", "{991935E3-24D9-4BFD-B091-2F7665B8C226}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,11 +40,26 @@ Global
 		{FC8D8AC8-5A5D-4A23-B1C9-5E358F1D134C} = {D4EA3A5B-8BB8-4136-84E3-D15CDAA3E052}
 		{19E692BA-4F66-40D3-A940-35E1EE380EBD} = {D4EA3A5B-8BB8-4136-84E3-D15CDAA3E052}
 		{5526168D-5B8A-4A0C-AE3F-5C760DB801D7} = {5237981E-5D9B-44C0-BCC7-BED99A6DE58A}
+		{D14EC7CB-3E0A-43CF-8497-612FC6E9B33C} = {5237981E-5D9B-44C0-BCC7-BED99A6DE58A}
+		{BED01CA4-BC00-4D8B-9DEE-6B5AC02C3BF5} = {5237981E-5D9B-44C0-BCC7-BED99A6DE58A}
+		{991935E3-24D9-4BFD-B091-2F7665B8C226} = {5237981E-5D9B-44C0-BCC7-BED99A6DE58A}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5526168D-5B8A-4A0C-AE3F-5C760DB801D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5526168D-5B8A-4A0C-AE3F-5C760DB801D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5526168D-5B8A-4A0C-AE3F-5C760DB801D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5526168D-5B8A-4A0C-AE3F-5C760DB801D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14EC7CB-3E0A-43CF-8497-612FC6E9B33C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14EC7CB-3E0A-43CF-8497-612FC6E9B33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14EC7CB-3E0A-43CF-8497-612FC6E9B33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14EC7CB-3E0A-43CF-8497-612FC6E9B33C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED01CA4-BC00-4D8B-9DEE-6B5AC02C3BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED01CA4-BC00-4D8B-9DEE-6B5AC02C3BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED01CA4-BC00-4D8B-9DEE-6B5AC02C3BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED01CA4-BC00-4D8B-9DEE-6B5AC02C3BF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991935E3-24D9-4BFD-B091-2F7665B8C226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991935E3-24D9-4BFD-B091-2F7665B8C226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991935E3-24D9-4BFD-B091-2F7665B8C226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991935E3-24D9-4BFD-B091-2F7665B8C226}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

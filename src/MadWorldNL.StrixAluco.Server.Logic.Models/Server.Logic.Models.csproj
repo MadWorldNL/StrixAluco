@@ -1,0 +1,5 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>$(RootNamespace).Server.Logic.Models</AssemblyName>
+  </PropertyGroup>
+</Project>
