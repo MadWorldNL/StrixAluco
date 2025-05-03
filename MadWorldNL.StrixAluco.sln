@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Logic.Models", "src\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.DataAccess.Database", "src\MadWorldNL.StrixAluco.Server.DataAccess.Database\Server.DataAccess.Database.csproj", "{991935E3-24D9-4BFD-B091-2F7665B8C226}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clients.Hub.Web", "src\MadWorldNL.StrixAluco.Clients.Hub.Web\Clients.Hub.Web.csproj", "{01F1489A-E55C-4273-B2A6-FBDDA10056C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clients.ControlPanel.Web", "src\MadWorldNL.StrixAluco.Clients.ControlPanel.Web\Clients.ControlPanel.Web.csproj", "{200CC6A7-5C60-4C56-AD77-70203914D602}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,8 @@ Global
 		{D14EC7CB-3E0A-43CF-8497-612FC6E9B33C} = {5237981E-5D9B-44C0-BCC7-BED99A6DE58A}
 		{BED01CA4-BC00-4D8B-9DEE-6B5AC02C3BF5} = {5237981E-5D9B-44C0-BCC7-BED99A6DE58A}
 		{991935E3-24D9-4BFD-B091-2F7665B8C226} = {5237981E-5D9B-44C0-BCC7-BED99A6DE58A}
+		{01F1489A-E55C-4273-B2A6-FBDDA10056C2} = {30DF5B50-9C67-4909-9CD2-9B899FA8E515}
+		{200CC6A7-5C60-4C56-AD77-70203914D602} = {30DF5B50-9C67-4909-9CD2-9B899FA8E515}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5526168D-5B8A-4A0C-AE3F-5C760DB801D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -61,5 +67,13 @@ Global
 		{991935E3-24D9-4BFD-B091-2F7665B8C226}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{991935E3-24D9-4BFD-B091-2F7665B8C226}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{991935E3-24D9-4BFD-B091-2F7665B8C226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F1489A-E55C-4273-B2A6-FBDDA10056C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F1489A-E55C-4273-B2A6-FBDDA10056C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F1489A-E55C-4273-B2A6-FBDDA10056C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F1489A-E55C-4273-B2A6-FBDDA10056C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200CC6A7-5C60-4C56-AD77-70203914D602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200CC6A7-5C60-4C56-AD77-70203914D602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200CC6A7-5C60-4C56-AD77-70203914D602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200CC6A7-5C60-4C56-AD77-70203914D602}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
