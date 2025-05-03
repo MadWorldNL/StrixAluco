@@ -5,7 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\src\MadWorldNL.StrixAluco.Server.Logic.Models\Server.Logic.Models.csproj" />
+      <ProjectReference Include="..\MadWorldNL.StrixAluco.Server.Logic.Models\Server.Logic.Models.csproj" />
     </ItemGroup>
 
 </Project>

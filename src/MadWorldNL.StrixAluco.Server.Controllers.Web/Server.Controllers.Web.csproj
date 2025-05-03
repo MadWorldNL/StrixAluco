@@ -20,7 +20,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\MadWorldNL.StrixAluco.Server.DataAccess.Database\Server.DataAccess.Database.csproj" />
+      <ProjectReference Include="..\MadWorldNL.StrixAluco.Server.DataAccess.Database\Server.DataAccess.Database.csproj" />
       <ProjectReference Include="..\MadWorldNL.StrixAluco.Server.Logic.Functions\Server.Logic.Functions.csproj" />
     </ItemGroup>
 

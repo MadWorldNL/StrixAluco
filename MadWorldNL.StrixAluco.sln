@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Logic.Functions", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Logic.Models", "src\MadWorldNL.StrixAluco.Server.Logic.Models\Server.Logic.Models.csproj", "{BED01CA4-BC00-4D8B-9DEE-6B5AC02C3BF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.DataAccess.Database", "MadWorldNL.StrixAluco.Server.DataAccess.Database\Server.DataAccess.Database.csproj", "{991935E3-24D9-4BFD-B091-2F7665B8C226}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.DataAccess.Database", "src\MadWorldNL.StrixAluco.Server.DataAccess.Database\Server.DataAccess.Database.csproj", "{991935E3-24D9-4BFD-B091-2F7665B8C226}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
