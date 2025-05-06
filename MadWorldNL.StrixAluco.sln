@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clients.Hub.Web", "src\MadW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clients.ControlPanel.Web", "src\MadWorldNL.StrixAluco.Clients.ControlPanel.Web\Clients.ControlPanel.Web.csproj", "{200CC6A7-5C60-4C56-AD77-70203914D602}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Logic.Functions.Tests", "tests\MadWorldNL.StrixAluco.Server.Logic.Functions.Tests\Server.Logic.Functions.Tests.csproj", "{CA6E82FD-DBC8-4DD4-9E14-133F3558AD8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,7 @@ Global
 		{991935E3-24D9-4BFD-B091-2F7665B8C226} = {5237981E-5D9B-44C0-BCC7-BED99A6DE58A}
 		{01F1489A-E55C-4273-B2A6-FBDDA10056C2} = {30DF5B50-9C67-4909-9CD2-9B899FA8E515}
 		{200CC6A7-5C60-4C56-AD77-70203914D602} = {30DF5B50-9C67-4909-9CD2-9B899FA8E515}
+		{CA6E82FD-DBC8-4DD4-9E14-133F3558AD8F} = {19E692BA-4F66-40D3-A940-35E1EE380EBD}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5526168D-5B8A-4A0C-AE3F-5C760DB801D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -75,5 +78,9 @@ Global
 		{200CC6A7-5C60-4C56-AD77-70203914D602}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{200CC6A7-5C60-4C56-AD77-70203914D602}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{200CC6A7-5C60-4C56-AD77-70203914D602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6E82FD-DBC8-4DD4-9E14-133F3558AD8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6E82FD-DBC8-4DD4-9E14-133F3558AD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6E82FD-DBC8-4DD4-9E14-133F3558AD8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6E82FD-DBC8-4DD4-9E14-133F3558AD8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
