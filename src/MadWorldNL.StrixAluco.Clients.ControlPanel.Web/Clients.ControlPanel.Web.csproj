@@ -13,4 +13,11 @@
         <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Include="..\..\.dockerignore">
+        <Link>.dockerignore</Link>
+        <DependentUpon>Dockerfile</DependentUpon>
+      </Content>
+    </ItemGroup>
+
 </Project>
