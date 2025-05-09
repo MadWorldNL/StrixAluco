@@ -24,4 +24,10 @@ jobs:
           password: ${{ secrets.GHCR_TOKEN }}
           
       - name: Build services
-        run: docker compose -f docker-compose.yml build
+        run: docker compose -f docker-compose.yml build hub control-panel api
+      
+      - name: Push services
+        run: |
+          docker push ghcr.io/madworldnl/strix-aluco-hub:latest
+          docker push ghcr.io/madworldnl/strix-aluco-control-panel:latest
+          docker push ghcr.io/madworldnl/strix-aluco-api:latest
