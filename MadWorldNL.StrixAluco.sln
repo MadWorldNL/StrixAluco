@@ -38,6 +38,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clients.ControlPanel.Web", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Logic.Functions.Tests", "tests\MadWorldNL.StrixAluco.Server.Logic.Functions.Tests\Server.Logic.Functions.Tests.csproj", "{CA6E82FD-DBC8-4DD4-9E14-133F3558AD8F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{E3E4FCDF-4AA6-4DAC-8748-8D3575A63E04}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		.github\workflows\docker.yml = .github\workflows\docker.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +61,7 @@ Global
 		{01F1489A-E55C-4273-B2A6-FBDDA10056C2} = {30DF5B50-9C67-4909-9CD2-9B899FA8E515}
 		{200CC6A7-5C60-4C56-AD77-70203914D602} = {30DF5B50-9C67-4909-9CD2-9B899FA8E515}
 		{CA6E82FD-DBC8-4DD4-9E14-133F3558AD8F} = {19E692BA-4F66-40D3-A940-35E1EE380EBD}
+		{E3E4FCDF-4AA6-4DAC-8748-8D3575A63E04} = {2C513C91-D2C9-4FD8-996A-4D77A16B4AEB}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5526168D-5B8A-4A0C-AE3F-5C760DB801D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
