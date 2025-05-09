@@ -5,6 +5,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D4EA3A5B-8BB8-4136-84E3-D15CDAA3E052}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{3A61DB12-C37A-4737-A01D-A96752F0D25A}"
+	ProjectSection(SolutionItems) = preProject
+		docs\InstallGuide.md = docs\InstallGuide.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{2C513C91-D2C9-4FD8-996A-4D77A16B4AEB}"
 	ProjectSection(SolutionItems) = preProject
