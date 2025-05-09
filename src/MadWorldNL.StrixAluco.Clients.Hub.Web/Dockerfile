@@ -1,3 +1,5 @@
+LABEL org.opencontainers.image.source="https://github.com/MadWorldNL/StrixAluco"
+
 FROM --platform=$BUILDPLATFORM nginx:latest AS base
 ARG BUILDPLATFORM
 EXPOSE 80
