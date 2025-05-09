@@ -1,6 +1,4 @@
-﻿LABEL org.opencontainers.image.source="https://github.com/MadWorldNL/StrixAluco"
-
-FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
+﻿FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
 USER $APP_UID
 WORKDIR /app
 EXPOSE 8080
@@ -21,6 +19,8 @@ ARG BUILD_CONFIGURATION=Release
 RUN dotnet publish "Server.Controllers.Web.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
+LABEL org.opencontainers.image.source="https://github.com/MadWorldNL/StrixAluco"
+
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "MadWorldNL.StrixAluco.Server.Controllers.Web.dll"]

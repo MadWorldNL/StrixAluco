@@ -1,5 +1,3 @@
-LABEL org.opencontainers.image.source="https://github.com/MadWorldNL/StrixAluco"
-
 FROM --platform=$BUILDPLATFORM nginx:latest AS base
 ARG BUILDPLATFORM
 EXPOSE 80
@@ -21,4 +19,6 @@ FROM build AS publish
 RUN dotnet publish "Clients.Hub.Web.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
+LABEL org.opencontainers.image.source="https://github.com/MadWorldNL/StrixAluco"
+
 COPY --from=publish /app/publish/wwwroot /usr/share/nginx/html
