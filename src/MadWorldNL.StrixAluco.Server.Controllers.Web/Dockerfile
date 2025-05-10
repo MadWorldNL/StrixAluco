@@ -7,10 +7,10 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["Directory.Build.props", "MadWorldNL.StrixAluco.Server.Controllers.Web/"]
+COPY ["Directory.Build.props", "./"]
 COPY ["src/MadWorldNL.StrixAluco.Server.Controllers.Web/Server.Controllers.Web.csproj", "MadWorldNL.StrixAluco.Server.Controllers.Web/"]
 RUN dotnet restore "MadWorldNL.StrixAluco.Server.Controllers.Web/Server.Controllers.Web.csproj"
-COPY ["src/MadWorldNL.StrixAluco.Server.Controllers.Web/", "MadWorldNL.StrixAluco.Server.Controllers.Web/"]
+COPY ["src/", "./"]
 WORKDIR "/src/MadWorldNL.StrixAluco.Server.Controllers.Web"
 RUN dotnet build "Server.Controllers.Web.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
