@@ -4,14 +4,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Protobuf Include="Protos\greet.proto">
-      <GrpcServices>Server</GrpcServices>
+      <GrpcServices>Both</GrpcServices>
       <ProtoRoot>Protos</ProtoRoot>
     </Protobuf>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Google.Protobuf" Version="3.30.2" />
-    <PackageReference Include="Grpc.Core.Api" Version="2.71.0" />
-    <PackageReference Include="Grpc.Tools" Version="2.68.1">
+    <PackageReference Include="Google.Protobuf" />
+    <PackageReference Include="Grpc.Core.Api" />
+    <PackageReference Include="Grpc.Tools">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

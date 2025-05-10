@@ -8,6 +8,7 @@ ARG BUILDPLATFORM
 
 WORKDIR /src
 COPY ["Directory.Build.props", "MadWorldNL.StrixAluco.Clients.ControlPanel.Web/"]
+COPY ["Directory.Packages.props", "MadWorldNL.StrixAluco.Clients.ControlPanel.Web/"]
 COPY ["src/MadWorldNL.StrixAluco.Clients.ControlPanel.Web/Clients.ControlPanel.Web.csproj", "MadWorldNL.StrixAluco.Clients.ControlPanel.Web/"]
 RUN dotnet restore "MadWorldNL.StrixAluco.Clients.ControlPanel.Web/Clients.ControlPanel.Web.csproj"
 COPY ["src/MadWorldNL.StrixAluco.Clients.ControlPanel.Web/", "MadWorldNL.StrixAluco.Clients.ControlPanel.Web/"]

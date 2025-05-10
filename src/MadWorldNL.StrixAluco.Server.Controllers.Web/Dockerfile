@@ -8,6 +8,7 @@ FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["Directory.Build.props", "./"]
+COPY ["Directory.Packages.props", "./"]
 COPY ["src/MadWorldNL.StrixAluco.Server.Controllers.Web/Server.Controllers.Web.csproj", "MadWorldNL.StrixAluco.Server.Controllers.Web/"]
 RUN dotnet restore "MadWorldNL.StrixAluco.Server.Controllers.Web/Server.Controllers.Web.csproj"
 COPY ["src/", "./"]

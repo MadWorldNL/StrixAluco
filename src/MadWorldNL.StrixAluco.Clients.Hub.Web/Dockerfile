@@ -8,6 +8,7 @@ ARG BUILDPLATFORM
 
 WORKDIR /src
 COPY ["Directory.Build.props", "MadWorldNL.StrixAluco.Clients.Hub.Web/"]
+COPY ["Directory.Packages.props", "MadWorldNL.StrixAluco.Clients.Hub.Web/"]
 COPY ["src/MadWorldNL.StrixAluco.Clients.Hub.Web/Clients.Hub.Web.csproj", "MadWorldNL.StrixAluco.Clients.Hub.Web/"]
 RUN dotnet restore "MadWorldNL.StrixAluco.Clients.Hub.Web/Clients.Hub.Web.csproj"
 COPY ["src/MadWorldNL.StrixAluco.Clients.Hub.Web/", "MadWorldNL.StrixAluco.Clients.Hub.Web/"]
