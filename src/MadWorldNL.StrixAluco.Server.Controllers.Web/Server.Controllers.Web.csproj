@@ -6,11 +6,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Protobuf Include="Protos\greet.proto" GrpcServices="Server"/>
-    </ItemGroup>
-
-    <ItemGroup>
         <PackageReference Include="Grpc.AspNetCore" Version="2.64.0"/>
+        <PackageReference Include="Grpc.AspNetCore.Server.Reflection" Version="2.71.0" />
     </ItemGroup>
 
     <ItemGroup>
@@ -20,6 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\MadWorldNL.StrixAluco.ClientSDK.Server\ClientSDK.Server.csproj" />
       <ProjectReference Include="..\MadWorldNL.StrixAluco.Server.DataAccess.Database\Server.DataAccess.Database.csproj" />
       <ProjectReference Include="..\MadWorldNL.StrixAluco.Server.Logic.Functions\Server.Logic.Functions.csproj" />
     </ItemGroup>

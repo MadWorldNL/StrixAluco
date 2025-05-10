@@ -1,5 +1,4 @@
 using Grpc.Core;
-using MadWorldNL.StrixAluco.Server.Controllers.Web;
 
 namespace MadWorldNL.StrixAluco.Services;
 
