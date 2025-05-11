@@ -26,4 +26,8 @@
       <ProjectReference Include="..\MadWorldNL.StrixAluco.ClientSDK.Server\ClientSDK.Server.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="docker\" />
+    </ItemGroup>
+
 </Project>
