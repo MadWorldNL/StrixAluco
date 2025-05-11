@@ -23,3 +23,5 @@ FROM base AS final
 LABEL org.opencontainers.image.source="https://github.com/MadWorldNL/StrixAluco"
 
 COPY --from=publish /app/publish/wwwroot /usr/share/nginx/html
+RUN rm /usr/share/nginx/html/appsettings.json.br
+RUN rm /usr/share/nginx/html/appsettings.json.gz
