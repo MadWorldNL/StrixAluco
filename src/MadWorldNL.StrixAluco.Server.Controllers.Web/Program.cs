@@ -6,9 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddGrpc();
 builder.Services.AddGrpcReflection();
 
-builder.Services.AddCors(o => o.AddPolicy("AllowAll", builder =>
+builder.Services.AddCors(o => o.AddPolicy("AllowAll", policy =>
 {
-    builder.AllowAnyOrigin()
+    policy.AllowAnyOrigin()
         .AllowAnyMethod()
         .AllowAnyHeader()
         .WithExposedHeaders("Grpc-Status", "Grpc-Message", "Grpc-Encoding", "Grpc-Accept-Encoding");

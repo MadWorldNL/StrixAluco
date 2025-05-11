@@ -23,11 +23,16 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\MadWorldNL.StrixAluco.ClientSDK.Server\ClientSDK.Server.csproj" />
+        <Content Update="wwwroot/appsettings.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+            <ExcludeFromCompression>true</ExcludeFromCompression>
+        </Content>
     </ItemGroup>
 
+
     <ItemGroup>
-      <Folder Include="docker\" />
+      <ProjectReference Include="..\MadWorldNL.StrixAluco.ClientSDK.Server\ClientSDK.Server.csproj" />
     </ItemGroup>
 
 </Project>

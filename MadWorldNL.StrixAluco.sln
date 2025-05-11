@@ -13,7 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{2C
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 		Directory.Build.props = Directory.Build.props
-		docker-compose.yml = docker-compose.yml
 		Directory.Packages.props = Directory.Packages.props
 	EndProjectSection
 EndProject
@@ -47,6 +46,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientSDK.Server", "src\MadWorldNL.StrixAluco.ClientSDK.Server\ClientSDK.Server.csproj", "{59C6BDD4-54E6-4015-AC07-387A64B8CDEA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{A53A601E-E8B0-48F2-8371-E96D92114C08}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ControlPanel", "ControlPanel", "{23FEDC1B-DA75-43AD-AFAF-0651C24CBC0B}"
+	ProjectSection(SolutionItems) = preProject
+		docker\ControlPanel\appsettings.json = docker\ControlPanel\appsettings.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,6 +75,7 @@ Global
 		{CA6E82FD-DBC8-4DD4-9E14-133F3558AD8F} = {19E692BA-4F66-40D3-A940-35E1EE380EBD}
 		{E3E4FCDF-4AA6-4DAC-8748-8D3575A63E04} = {2C513C91-D2C9-4FD8-996A-4D77A16B4AEB}
 		{59C6BDD4-54E6-4015-AC07-387A64B8CDEA} = {47762607-DA26-4E4D-B427-0190C97648C1}
+		{23FEDC1B-DA75-43AD-AFAF-0651C24CBC0B} = {A53A601E-E8B0-48F2-8371-E96D92114C08}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5526168D-5B8A-4A0C-AE3F-5C760DB801D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

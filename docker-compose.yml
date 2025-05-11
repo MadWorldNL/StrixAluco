@@ -18,6 +18,8 @@ services:
     ports:
       - "8084:80"
       - "8085:443"
+    volumes:
+      - "./docker/ControlPanel/appsettings.json:/usr/share/nginx/html/appsettings.json"
   api:
     image: ghcr.io/madworldnl/strix-aluco-api:latest
     container_name: api
