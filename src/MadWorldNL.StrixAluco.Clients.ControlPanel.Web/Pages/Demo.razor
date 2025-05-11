@@ -1,0 +1,23 @@
+@page "/Demo"
+@inject Greeter.GreeterClient GreeterClient;
+
+<h3>Demo</h3>
+<p>@_message</p>
+
+@code {
+    private string _message = "Waiting for response....";
+    
+    protected override async Task OnInitializedAsync()
+    {
+        var helloRequest = new HelloRequest()
+        {
+            Name = "Stranger"
+        };
+        
+        var helloReply = await GreeterClient.SayHelloAsync(helloRequest);
+        _message = helloReply.Message;
+        
+        await base.OnInitializedAsync();
+    }
+
+}
